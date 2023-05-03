@@ -24,7 +24,7 @@ sequenceDiagram
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
-    server-->>List
+    server-->>browser:List
     deactivate server    
 
    
