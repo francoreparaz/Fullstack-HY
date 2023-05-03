@@ -18,5 +18,12 @@ sequenceDiagram
     server-->>browser: the JavaScript file
     deactivate server
     
+
+    
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    activate server
+    server-->>browser: New List
+    deactivate server    
+
    
 ```
